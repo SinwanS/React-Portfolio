@@ -46,7 +46,7 @@ export const PORTFOLIO_DATA: PortfolioData = {
       title: "Cloud Resume Website",
       description: "My old website with just bare HTML/CSS and a splash of JavaScript. Was deployed using S3 and AWS CloudFront with GitHub actions to automatically update any front-end changes I push to the site repository.",
       tags: ["HTML", "CSS", "JavaScript", "AWS", "Github Actions"],
-      image: "./work/02.png",
+      image: "/images/02.png",
       link: "https://github.com/SinwanS/cloud-resume-challenge"
     },
     {
@@ -54,7 +54,7 @@ export const PORTFOLIO_DATA: PortfolioData = {
       title: "Soc Analyst Lab",
       description: "Integrated a Security Information and Event Management (SIEM) tool with a Security, Orchestration, Automation, and Response (SOAR) tool. Set up automatic detection and lock out response for malware like mimikatz",
       tags: ["Wazuh", "TheHive", "Shuffle", "Virtual Box"],
-      image: "./work/01.png",
+      image: "/images/01.png",
       link: "https://github.com/SinwanS/SOC-Automation"
     },
     {
@@ -62,7 +62,7 @@ export const PORTFOLIO_DATA: PortfolioData = {
       title: "Chip8",
       description: "A simple Chip8 emulator",
       tags: ["C"],
-      image: "./work/wip.jpg",
+      image: "/images/wip.jpg",
       link: "https://github.com/SinwanS/chip8_emulator"
     }
   ],

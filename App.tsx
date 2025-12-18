@@ -77,7 +77,7 @@ const App: React.FC = () => {
             <div className="absolute -inset-4 bg-purple-600/20 rounded-[40px] blur-2xl"></div>
             <div className="relative aspect-square md:aspect-video lg:aspect-square rounded-[40px] overflow-hidden border border-purple-500/30">
               <img 
-                src="./assets/sinwan.jpg" 
+                src="/images/sinwan.jpg" 
                 alt="Profile" 
                 className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
               />
@@ -167,7 +167,7 @@ const App: React.FC = () => {
           </div>
 
           <div className="flex gap-8 text-xs font-bold uppercase tracking-widest text-slate-500">
-            <a href="./assets/Sinwan_Resume.pdf" className="hover:text-purple-400 transition-colors">PDF Resume</a>
+            <a href="/Sinwan_Resume.pdf" className="hover:text-purple-400 transition-colors">PDF Resume</a>
           </div>
         </div>
       </footer>
