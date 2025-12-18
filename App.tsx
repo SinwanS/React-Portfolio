@@ -4,7 +4,6 @@ import Section from './components/Section';
 import ExperienceTimeline from './components/ExperienceTimeline';
 import SkillsGrid from './components/SkillsGrid';
 import ProjectGallery from './components/ProjectGallery';
-import ChatWidget from './components/ChatWidget';
 import { PORTFOLIO_DATA } from './constants';
 
 const App: React.FC = () => {
@@ -174,8 +173,6 @@ const App: React.FC = () => {
         </div>
       </footer>
 
-      {/* AI Assistant Widget */}
-      <ChatWidget />
     </div>
   );
 };
