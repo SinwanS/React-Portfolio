@@ -161,7 +161,6 @@ const App: React.FC = () => {
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
           <div>
             <a href="#" className="text-xl font-black text-white tracking-tighter">
-              <div class="counter-number">Couldn't read the counter</div>
             </a>
             <p className="text-slate-500 text-sm mt-2">© 2025 Sinwan Saeed. All rights reserved.</p>
           </div>
