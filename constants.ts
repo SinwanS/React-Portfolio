@@ -2,85 +2,86 @@
 import { PortfolioData } from './types';
 
 export const PORTFOLIO_DATA: PortfolioData = {
-  name: "Alex Sterling",
-  title: "Senior Full-Stack Engineer & Architect",
-  about: "I am a passionate software engineer with over 8 years of experience building scalable web applications. My expertise lies in crafting intuitive user interfaces and robust backend architectures. I love exploring the intersection of AI and modern web technologies to solve complex problems.",
+  name: "Sinwan Saeed",
+  title: "Aspiring Software/Security Engineer",
+  about: "I studied and got my Bachelors in Computer Science at the University of Maryland College Park. Dedicated and persistent. I am constantly learning and working to further my knowledge and expertise. I am fluent with HTML/CSS, JavaScript, Python, C#, and C++. Familiar with GIT/Source control. I also have some experience with MySQL and MongoDB.",
   experiences: [
     {
       id: "1",
-      role: "Lead Frontend Engineer",
-      company: "TechNova Systems",
-      period: "2021 - Present",
+      role: "System Analyst",
+      company: "Oxford Risk Management Group",
+      period: "Sep 2025 - Present",
       description: [
-        "Architected a high-performance React dashboard reducing load times by 40%.",
-        "Mentored a team of 5 junior developers and implemented standardized code review processes.",
-        "Collaborated with UX designers to create a comprehensive design system."
+        "Wrote Python scripts to automate data migration from Excel to Salesforce, decreasing project time to weeks from months",
+        "Implemented Salesforce features and enhancements to streamline policy, endorsements, and claims tracking",
+        "Wrote SOPs and documented common tasks to create a knowledge base to decrease new hire training time"
       ]
     },
     {
       id: "2",
-      role: "Senior Software Developer",
-      company: "CloudBound Inc.",
-      period: "2018 - 2021",
+      role: "Help Desk Analyst",
+      company: "T Rowe Price",
+      period: "Jun 2024 - Sep 2025",
       description: [
-        "Migrated legacy monolithic applications to a microservices architecture using Node.js and AWS.",
-        "Improved system reliability by implementing robust CI/CD pipelines and unit testing suites.",
-        "Managed database optimization for PostgreSQL instances handling 100k+ daily requests."
+        "Assisted end users with technical incidents in infrastructure operations using ServiceNow, ensuring effective communication to non-technical users, resulting in improved user satisfaction",
+        "Managed incident data collection and ticket documentation using ServiceNow instances based on the ITIL framework, enhancing the efficiency of enterprise technology services",
+        "Supported applications including Salesforce, Amazon Connect, Concur, Microsoft Office 365 Suite, and Citrix Workspace, contributing to seamless software operations"
       ]
     },
     {
       id: "3",
-      role: "Full Stack Developer",
-      company: "StartUp Hub",
-      period: "2016 - 2018",
+      role: "Desktop Governance & Compliance Intern",
+      company: "Navy Federal Credit Union ",
+      period: "May 2023 - Aug 2023",
       description: [
-        "Built the MVP for a fintech platform that secured $5M in Series A funding.",
-        "Developed real-time notification systems using WebSockets and Redis.",
-        "Optimized mobile responsiveness for cross-platform compatibility."
+        "Tested monthly software patches for corporate applications, ensuring compatibility and security compliance",
+        "Tracked admin access during quarterly audits to ensure least privilege access, enhancing security protocols",
+        "Fulfilled and managed software requests using ServiceNow and Remote Desktop"
       ]
     }
   ],
   projects: [
     {
       id: "p1",
-      title: "AI Market Analyzer",
-      description: "A real-time financial sentiment analysis tool using Gemini API to process news and predict stock trends.",
-      tags: ["React", "Python", "Gemini AI", "Tailwind"],
-      image: "https://picsum.photos/seed/market/600/400",
-      link: "#"
+      title: "Cloud Resume Website",
+      description: "My old website with just bare HTML/CSS and a splash of JavaScript. Was deployed using S3 and AWS CloudFront with GitHub actions to automatically update any front-end changes I push to the site repository.",
+      tags: ["HTML", "CSS", "JavaScript", "AWS", "Github Actions"],
+      image: "./work/02.png",
+      link: "https://github.com/SinwanS/cloud-resume-challenge"
     },
     {
       id: "p2",
-      title: "ZenFlow Project Manager",
-      description: "A minimalist Kanban-style project management tool with built-in focus timers and team collaboration features.",
-      tags: ["TypeScript", "Firebase", "Drag-n-Drop"],
-      image: "https://picsum.photos/seed/zen/600/400",
-      link: "#"
+      title: "Soc Analyst Lab",
+      description: "Integrated a Security Information and Event Management (SIEM) tool with a Security, Orchestration, Automation, and Response (SOAR) tool. Set up automatic detection and lock out response for malware like mimikatz",
+      tags: ["Wazuh", "TheHive", "Shuffle", "Virtual Box"],
+      image: "./work/01.png",
+      link: "https://github.com/SinwanS/SOC-Automation"
     },
     {
       id: "p3",
-      title: "EtherPulse Dashboard",
-      description: "An interactive crypto-tracking dashboard with D3.js visualizations and multi-wallet support.",
-      tags: ["Next.js", "D3.js", "Web3", "Node.js"],
-      image: "https://picsum.photos/seed/crypto/600/400",
-      link: "#"
+      title: "Chip8",
+      description: "A simple Chip8 emulator",
+      tags: ["C"],
+      image: "./work/wip.jpg",
+      link: "https://github.com/SinwanS/chip8_emulator"
     }
   ],
   skills: [
-    { name: "React / Next.js", category: "Frontend" },
-    { name: "TypeScript", category: "Frontend" },
-    { name: "Tailwind CSS", category: "Frontend" },
-    { name: "Framer Motion", category: "Frontend" },
-    { name: "Node.js", category: "Backend" },
-    { name: "Python", category: "Backend" },
-    { name: "PostgreSQL", category: "Backend" },
+    { name: "Python", category: "Languages" },
+    { name: "C/C++/C#", category: "Languages" },
+    { name: "HTML/CSS", category: "Languages" },
+    { name: "Java", category: "Languages" },
+    { name: "JavaScript", category: "Languages" },
+    { name: "React", category: "Frameworks" },
+    { name: "Node.js", category: "Frameworks" },
     { name: "AWS", category: "Tools" },
+    { name: "Azure", category: "Tools" },
     { name: "Docker", category: "Tools" },
+    { name: "Git", category: "Tools" },
     { name: "Gemini API", category: "Tools" }
   ],
   certifications: [
-    { name: "AWS Certified Solutions Architect", issuer: "Amazon Web Services", year: "2023" },
-    { name: "Google Cloud Professional Developer", issuer: "Google Cloud", year: "2022" },
-    { name: "Meta Front-End Developer Professional", issuer: "Coursera", year: "2021" }
+    { name: "Network+", issuer: "CompTIA", year: "2025" },
+    { name: "Security+", issuer: "CompTIA", year: "2025" }
   ]
 };

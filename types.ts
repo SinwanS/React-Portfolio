@@ -18,7 +18,7 @@ export interface Project {
 
 export interface Skill {
   name: string;
-  category: 'Frontend' | 'Backend' | 'Tools' | 'Soft Skills';
+  category: 'Languages' | 'Tools' | 'Soft Skills' | 'Frameworks';
 }
 
 export interface Certification {
