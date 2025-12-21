@@ -60,9 +60,9 @@ export const PORTFOLIO_DATA: PortfolioData = {
     {
       id: "p3",
       title: "Chip8",
-      description: "A simple Chip8 emulator",
+      description: "A simple Chip8 emulator, passed all tests on BC Test ROM",
       tags: ["C"],
-      image: "/images/wip.jpg",
+      image: "/images/03.png",
       link: "https://github.com/SinwanS/chip8_emulator"
     }
   ],
